@@ -1,5 +1,9 @@
 [user]
 	name = Mickaël Canévet
 	email = mickael.canevet@gmail.com
+
 [init]
 	defaultBranch = main
+
+[includeIf "gitdir:~/src/gitlab.com/KeliTeamCorti/"]
+	path = ~/.gitconfig-KeliTeamCorti.inc
