@@ -1,4 +1,9 @@
 *
-!.*
-!.config/
-!.config/**/*
+!/.*
+!/.config/
+!/.config/**/*
+.DS_Store
+.git-credentials
+.lesshst
+.viminfo
+.zsh_history
