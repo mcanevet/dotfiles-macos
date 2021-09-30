@@ -7,3 +7,5 @@
 
 [includeIf "gitdir:~/src/gitlab.com/KeliTeamCorti/"]
 	path = ~/.gitconfig-KeliTeamCorti.inc
+[credential]
+	helper = store
