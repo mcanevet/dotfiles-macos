@@ -5,6 +5,7 @@
 !/.config/**/*
 /.DS_Store
 /.cache/
+/.cargo/.package-cache
 /.gnupg/
 /.lesshst
 /.local/
