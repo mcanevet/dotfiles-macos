@@ -7,5 +7,7 @@
 
 [includeIf "gitdir:~/src/gitlab.com/KeliTeamCorti/"]
 	path = ~/.gitconfig-KeliTeamCorti.inc
-[credential]
-	helper = store
+
+[credential "https://dl.cloudsmith.io"]
+	username = token
+	helper = "!f() { test \"$1\" = get && echo \"password=$(bw get item 1dcd7188-86ec-4d7b-bc70-adb300bbb34c | jq -r '.fields[] | select(.name==\"CLOUDSMITH_API_KEY\").value')\"; }; f"

@@ -5,7 +5,6 @@
 !/.config/**/*
 /.DS_Store
 /.cache/
-/.git-credentials
 /.gnupg/
 /.lesshst
 /.local/
