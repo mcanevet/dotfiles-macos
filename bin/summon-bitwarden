@@ -1,0 +1,5 @@
+#!/bin/sh
+
+read ITEM KEY <<< $(echo "${@}"|sed 's/:/ /1')
+
+bw get item "$ITEM" | jq -r ".fields[] | select(.name==\"$KEY\").value"
