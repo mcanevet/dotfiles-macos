@@ -6,4 +6,5 @@
 .git-credentials
 .lesshst
 .viminfo
+.zcompdump-*
 .zsh_history
