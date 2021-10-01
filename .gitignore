@@ -1,11 +1,17 @@
+# ignore all
 *
+
+# except this
 !/.*
 !/.*/**/*
 !/.config/
 !/.config/**/*
+
+# but ignore this
 /.DS_Store
 /.cache/
 /.cargo/.package-cache
+/.config/containers
 /.gnupg/
 /.lesshst
 /.local/
